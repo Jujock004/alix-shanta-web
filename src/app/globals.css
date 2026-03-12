@@ -24,3 +24,14 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+::selection {
+  background-color: #c3002b !important;
+  color: white !important;
+}
+
+/* Pour Firefox (qui utilise un préfixe parfois) */
+::-moz-selection {
+  background-color: #c3002b !important;
+  color: white !important;
+}

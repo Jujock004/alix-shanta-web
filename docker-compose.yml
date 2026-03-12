@@ -1,0 +1,16 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: alix-shanta-web
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app # Relie ton dossier Linux au dossier Docker
+      - /app/node_modules # Protège les modules installés dans Docker
+      - /app/.next # Protège le cache de build
+    environment:
+      - NODE_ENV=development
+      - WATCHPACK_POLLING=true # Force la surveillance des fichiers
+      - CHOKIDAR_USEPOLLING=true
