@@ -1,6 +1,6 @@
 const stats = [
   { label: "collected from donation", value: "$ 2,000" },
-  { label: "veterans supported", value: "300+" },
+  { label: "people in need supported", value: "300+" },
   { label: "meals served", value: "4,000+" },
 ];
 
@@ -19,7 +19,7 @@ export default function KeyImpact() {
               {/* Le cercle orange de ta maquette */}
               <div className="w-40 h-40 rounded-full bg-[#C3002B] flex flex-col items-center justify-center text-white text-center p-4 shadow-lg transform hover:scale-105 transition-transform">
                 <span className="text-xl font-bold">{stat.value}</span>
-                <span className="text-[10px] uppercase mt-1 leading-tight">
+                <span className="text-[14px] font-medium uppercase mt-1 leading-tight">
                   {stat.label}
                 </span>
               </div>

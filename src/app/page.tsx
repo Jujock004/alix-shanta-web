@@ -1,5 +1,6 @@
 import KeyImpact from "@/components/home/KeyImpact";
-import RecentStories from "@/components/RecentStories";
+import OurActions from "@/components/home/OurActions";
+import RecentStories from "@/components/home/RecentStories";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <OurActions />
       <KeyImpact />
       <RecentStories />
     </main>
