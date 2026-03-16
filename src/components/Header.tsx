@@ -23,7 +23,15 @@ export default function Header() {
                   href="/about"
                   className="text-white font-bold hover:text-[#C3002B]"
                 >
-                  ABOUT
+                  ABOUT US
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/stories"
+                  className="text-white font-bold hover:text-[#C3002B]"
+                >
+                  OUR STORIES
                 </Link>
               </li>
               <li>

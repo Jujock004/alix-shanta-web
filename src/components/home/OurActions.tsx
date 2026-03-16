@@ -17,7 +17,7 @@ export default function OurActions() {
     },
   ];
   return (
-    <section className="py-20 bg-white font-roboto">
+    <section className="py-20 bg-slate-50 font-roboto">
       <div className="max-w-6xl mx-auto px-4 text-center">
         {/* Titre identique à ta capture */}
         <h2 className="text-2xl font-bold text-center mb-10 uppercase tracking-tight text-slate-800">
