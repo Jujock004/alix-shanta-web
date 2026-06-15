@@ -44,7 +44,7 @@ export default function Footer() {
                   href="/stories"
                   className="hover:text-white transition-colors"
                 >
-                  Our Stories
+                  Events
                 </Link>
               </li>
               <li>
@@ -98,8 +98,18 @@ export default function Footer() {
               Contact
             </h4>
             <address className="not-italic text-sm text-slate-300 space-y-2">
-              <p>Email: contact@alixshanta.org</p>
-              <p>Location: Washington, D.C.</p>
+              <p>
+                Phone: <br />
+                (302) 685-9587
+              </p>
+              <p>
+                Location: <br />
+                57 Aidone Dr New Castle, DE 19720
+              </p>
+              <p>
+                Email: <br />
+                contact@takeawalkinmyshoestoo.org
+              </p>
               <div className="flex gap-4 mt-6">
                 <div className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#C3002B] transition-all cursor-pointer border border-white/5">
                   f

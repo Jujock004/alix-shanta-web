@@ -3,10 +3,22 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-[#2A248F] border-b border-slate-100 shadow-sm">
-      <div className="max-w-5xl mx-auto px-4">
+      <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between items-center py-4">
-          <Link href="/" className="text-xl font-bold text-white">
-            ALIX AND SHANTA
+          <Link
+            href="/"
+            className="text-xl font-bold text-white uppercase tracking-widest flex items-center gap-2"
+          >
+            <img
+              width={100}
+              height={100}
+              src="/logo-removebg-preview.png"
+              alt="Logo"
+            />
+            <p>
+              Take A Walk <br />
+              In My Shoes Too
+            </p>
           </Link>
           <nav>
             <ul className="flex space-x-6">
@@ -31,7 +43,7 @@ export default function Header() {
                   href="/stories"
                   className="text-white font-bold hover:text-[#C3002B]"
                 >
-                  OUR STORIES
+                  EVENTS
                 </Link>
               </li>
               <li>

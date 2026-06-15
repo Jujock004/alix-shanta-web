@@ -1,5 +1,5 @@
-export default function RecentStories() {
-  const stories = [
+export default function RecentEvents() {
+  const events = [
     {
       title: "Hot Meals Distribution",
       category: "Food Support",
@@ -39,17 +39,17 @@ export default function RecentStories() {
               Impact in action
             </h2>
             <h3 className="text-4xl font-black text-[#2A248F] uppercase tracking-tighter">
-              Recent Stories
+              Recent Events
             </h3>
           </div>
           <button className="cursor-pointer hidden md:block text-[#2A248F] font-bold border-b-2 border-[#2A248F] hover:text-[#C3002B] hover:border-[#C3002B] transition-all pb-1">
-            VIEW ALL STORIES
+            VIEW ALL EVENTS
           </button>
         </div>
 
         {/* Grille des articles */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {stories.map((story, index) => (
+          {events.map((event, index) => (
             <article
               key={index}
               className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 group"
@@ -57,13 +57,13 @@ export default function RecentStories() {
               {/* Image avec Overlay au survol */}
               <div className="relative h-56 overflow-hidden">
                 <img
-                  src={story.image}
-                  alt={story.title}
+                  src={event.image}
+                  alt={event.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute top-4 left-4">
                   <span className="bg-[#2A248F] text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase">
-                    {story.category}
+                    {event.category}
                   </span>
                 </div>
               </div>
@@ -71,16 +71,16 @@ export default function RecentStories() {
               {/* Contenu de la carte */}
               <div className="p-8">
                 <time className="text-slate-400 text-xs font-medium">
-                  {story.date}
+                  {event.date}
                 </time>
                 <h4 className="text-xl font-bold text-slate-800 mt-2 mb-4 group-hover:text-[#2A248F] transition-colors">
-                  {story.title}
+                  {event.title}
                 </h4>
                 <p className="text-slate-600 text-sm leading-relaxed mb-6">
-                  {story.description}
+                  {event.description}
                 </p>
                 <button className="flex items-center text-[#C3002B] font-black text-xs uppercase tracking-wider group-hover:translate-x-2 transition-transform">
-                  Read Full Story <span className="ml-2">→</span>
+                  Read Full Event <span className="ml-2">→</span>
                 </button>
               </div>
             </article>

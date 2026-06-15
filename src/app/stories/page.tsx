@@ -37,7 +37,7 @@ export default function StoriesPage() {
       <section className="bg-[#2A248F] pt-24 pb-16 text-white text-center">
         <div className="max-w-4xl mx-auto px-4">
           <h1 className="text-5xl font-black uppercase tracking-tighter mb-4">
-            Our Stories
+            Events
           </h1>
           <p className="text-xl text-slate-300">
             Direct reports from the field and updates on our shared mission.

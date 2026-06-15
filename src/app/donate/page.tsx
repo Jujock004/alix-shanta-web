@@ -26,10 +26,12 @@ export default function DonatePage() {
                   Why your support matters
                 </h2>
                 <p className="text-slate-600 text-lg leading-relaxed">
-                  We are Alix and Shanta. For us, this isn't a charity—it's a
-                  commitment. By donating today, you're not just giving money;
-                  you're providing a warm meal, a dry blanket, and a moment of
-                  hope to someone who feels forgotten.
+                  The Take A Walk In My Shoes Too Foundation is a commitment to
+                  dignity, built on over 20 years of expertise in human
+                  services. By donating today, you fuel a structured mission to
+                  support families, underserved communities, and
+                  veterans—transforming immediate needs into long-term stability
+                  and hope for those our society often forgets.
                 </p>
               </div>
 
