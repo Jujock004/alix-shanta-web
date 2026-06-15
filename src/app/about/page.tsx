@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const team = [
   {
     name: "Shanta Terry",
@@ -60,7 +62,7 @@ export default function AboutPage() {
                 <div className="w-full md:w-1/3">
                   <div className="aspect-[4/5] relative rounded-2xl overflow-hidden shadow-2xl border-b-8 border-[#C3002B]">
                     <div className="absolute inset-0 bg-[#2A248F]/10 z-10"></div>
-                    <img
+                    <Image
                       src={member.image}
                       alt={member.name}
                       className="w-full h-full object-cover"

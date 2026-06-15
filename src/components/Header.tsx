@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Header() {
@@ -9,7 +10,7 @@ export default function Header() {
             href="/"
             className="text-xl font-bold text-white uppercase tracking-widest flex items-center gap-2"
           >
-            <img
+            <Image
               width={100}
               height={100}
               src="/logo-removebg-preview.png"
